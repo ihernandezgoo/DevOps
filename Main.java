@@ -1,10 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 5;
-        System.out.println("Hello, World! " + x);
+       System.out.println("Hola me llamo Ivan");
 
-        int x2 = 10;
-        System.out.println("Hello, World! " + x2);
-        
     }
 }
