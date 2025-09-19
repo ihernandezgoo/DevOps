@@ -8,4 +8,10 @@ public class CalculadoraTest {
         Calculadora calc = new Calculadora();
         assertEquals(5, calc.suma(2, 2));
     }
+
+    @Test
+    public void testSumaAcierta() {
+        Calculadora calc = new Calculadora();
+        assertEquals(5, calc.suma(2, 3));
+    }
 }
