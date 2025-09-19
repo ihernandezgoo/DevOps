@@ -6,12 +6,6 @@ public class CalculadoraTest {
     @Test
     public void testSumaAcierta() {
         Calculadora calc = new Calculadora();
-        assertEquals(5, calc.suma(2, 3));  // Este test debe pasar
-    }
-
-    @Test
-    public void testSumaFalla() {
-        Calculadora calc = new Calculadora();
-        assertEquals(5, calc.suma(2, 2));  // Este test debe fallar
+        assertEquals(5, calc.suma(2, 2));
     }
 }

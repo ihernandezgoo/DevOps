@@ -5,7 +5,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        int resultado = calc.suma(2, 2);
+        int resultado = calc.suma(2, 3);
         System.out.println("La suma es: " + resultado);
     }
 }
