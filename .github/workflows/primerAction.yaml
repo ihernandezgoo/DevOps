@@ -5,6 +5,5 @@ jobs:
     lamine:
         runs-on: ubuntu-latest
         steps:
-            - name: primera accion
-                uses: actions/checkout@v3
-            - run: echo "Hola Mundo"
+            - name: primeraaccion
+              run: echo "Hola Mundo"
