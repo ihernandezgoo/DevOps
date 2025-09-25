@@ -2,7 +2,7 @@ name: PrimerAction
 on: push
 
 jobs:
-    lamine:
+    firstJob:
         runs-on: ubuntu-latest
         steps:
             - name: primeraaccion
