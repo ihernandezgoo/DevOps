@@ -16,5 +16,5 @@ jobs:
           java-version: 17
 
       - name: Build with Maven (compile + test)
-        run: mvn -B clean verifyç
+        run: mvn -B clean verify
         working-directory: .
