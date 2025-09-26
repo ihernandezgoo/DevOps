@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Java CI
 
 on: push
 
@@ -6,12 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Set up JDK 17
-        uses: actions/setup-java@v3
+        uses: setup-java-jdk@v3
         with:
           distribution: temurin
           java-version: 17
-      - run: ls -l
+      - run: mvn test
