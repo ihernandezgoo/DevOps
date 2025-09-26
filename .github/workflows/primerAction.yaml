@@ -11,4 +11,5 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - run: mvn test
+          working-directory: ./TestAriketa
+          run: mvn test
