@@ -13,8 +13,6 @@ public class DemoApplication {
     }
 }
 
-
-
 @RestController
 class DemoController {
     @GetMapping("/hello")
